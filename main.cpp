@@ -13,6 +13,9 @@ int main(int argc, char *argv[])
     b.setParent(&w);//方法一
     b.move(100,100);
 
+    QPushButton b1(&w);//方法二
+    b1.setText("abc");
+
     w.show();
     return a.exec();
 }
